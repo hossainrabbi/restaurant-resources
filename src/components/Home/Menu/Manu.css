@@ -1,0 +1,17 @@
+.manu-item {
+    padding: 10px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-light);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.manu-item:hover {
+    box-shadow: var(--show-dark);
+}
+
+.manu-item img {
+    height: 60px;
+    width: 60px;
+    margin-bottom: 15px;
+}

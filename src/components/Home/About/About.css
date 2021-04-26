@@ -1,0 +1,31 @@
+.about {
+    margin-left: -30px;
+    position: relative;
+}
+
+.about::after {
+    content: '';
+    position: absolute;
+    bottom: 50px;
+    right: -82px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(
+        90deg,
+        rgba(219, 195, 149, 0.9139784946236559) 0%,
+        rgba(223, 146, 4, 0.8516129032258064) 57%,
+        rgba(255, 165, 0, 1) 100%
+    );
+}
+
+.about::before {
+    content: '';
+    position: absolute;
+    bottom: 36px;
+    right: -97px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px dotted var(--main-color);
+}
