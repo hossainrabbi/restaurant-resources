@@ -1,0 +1,31 @@
+.review-item {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-light);
+    transition: all var(--transition);
+    text-align: center;
+}
+
+.review-item:hover {
+    box-shadow: var(--shadow-dark);
+}
+
+.review-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.card-header {
+    padding: 0;
+    margin-top: 10px;
+    background-color: transparent;
+    border-bottom: none;
+}
+
+.card-header p {
+    margin-bottom: 0;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import Chef from '../../../images/chef.png';
+import './Chefs.css';
 
 const Chefs = () => {
     return (
