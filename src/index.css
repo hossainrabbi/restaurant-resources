@@ -3,9 +3,9 @@
 :root {
     --main-color: #df9204;
     --secondary-color: #444444;
-    --header-color: #121212;
+    --header-color: #1b1b1b;
     --shadow-light: 0px 0px 10px #00000013;
-    --show-dark: 0px 0px 10px #0000003a;
+    --shadow-dark: 0px 0px 10px #0000003a;
     --radius: 5px;
     --transition: 0.3s;
 }

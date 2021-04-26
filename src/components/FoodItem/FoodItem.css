@@ -1,0 +1,24 @@
+.food-item {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-light);
+    transition: all var(--transition);
+}
+
+.food-item:hover {
+    box-shadow: var(--shadow-dark);
+}
+
+.food-item img {
+    background-image: url(../../images/foodItem.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food-item .card-footer {
+    padding: 0;
+    background-color: transparent;
+    border-top: none;
+}

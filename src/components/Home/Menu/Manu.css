@@ -7,7 +7,7 @@
 }
 
 .manu-item:hover {
-    box-shadow: var(--show-dark);
+    box-shadow: var(--shadow-dark);
 }
 
 .manu-item img {
