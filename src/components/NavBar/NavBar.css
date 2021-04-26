@@ -1,0 +1,7 @@
+.nav-bar .navbar-brand {
+    color: var(--main-color) !important;
+}
+
+.nav-link {
+    color: var(--secondary-color) !important;
+}
